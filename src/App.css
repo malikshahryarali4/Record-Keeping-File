@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: fixed;
+  background-color: rgb(212, 230, 230);
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(49, 10, 46);
+  padding: 14px;
+  color: white;
+  width: 100%;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.data_val {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  padding: 0px 9px 0px 9px;
+  background-color: rgb(155, 206, 248);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
